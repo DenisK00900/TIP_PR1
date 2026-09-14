@@ -6,6 +6,7 @@
 - Git
 
 # Структура проекта
+```text
 helloapi/
 ├── cmd/
 │   └── server/
@@ -14,19 +15,24 @@ helloapi/
 ├── go.mod
 ├── go.sum
 └── README.md
+```
 
 # Скачивание и запуск
+```text
 git clone https://github.com/DenisK00900/TIP_PR1.git
 cd TIP_PR1
 go mod tidy
 go run ./cmd/server
+```
 
 # Запросы
+```text
 curl http://localhost:5015/hello
 curl http://localhost:5015/user
 curl http://localhost:5015/health
 
 (или другой порт, если он был изменён)
+```
 
 # Конфигурация
 
