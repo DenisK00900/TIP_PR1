@@ -30,10 +30,10 @@ go run ./cmd/server
 curl http://localhost:5015/hello
 curl http://localhost:5015/user
 curl http://localhost:5015/health
-
-(или другой порт, если он был изменён)
 ```
+(или другой порт, если он был изменён)
 
 # Конфигурация
-
+```text
 set APP_PORT=5015
+```
