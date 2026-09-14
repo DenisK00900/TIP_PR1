@@ -27,9 +27,9 @@ go run ./cmd/server
 
 # Запросы
 ```text
-curl http://localhost:5015/hello
-curl http://localhost:5015/user
-curl http://localhost:5015/health
+curl http://localhost:8080/hello
+curl http://localhost:8080/user
+curl http://localhost:8080/health
 ```
 (или другой порт, если он был изменён)
 
